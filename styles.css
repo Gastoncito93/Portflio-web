@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  header {
+    background-color: #080000;
+    color: white;
+    padding: 10px;
+    position: fixed; /* Fija el header en la parte superior de la ventana */
+    width: 100%; /* Hace que el header ocupe el 100% del ancho */
+    top: 0; /* Coloca el header en la parte superior */
+    z-index: 1000; /* Ajusta el índice Z para asegurarse de que el header esté sobre otros elementos */
+  }
+
+  /* Section Intoduccion */
+  .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .negro {
+    background-color: git#080000ea;
+    height: 100vh;
+    width: 70%;
+    
+  }
+
+  .turquesa {
+    background-color: #00aeff;
+    height: 100vh;
+    width: 30%;
+  }
+
+  #persona{
+    position: absolute;
+    height: 500px;
+    right: 232px;
+    top: 313px;
+}
+
+.titulo {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+
+.hello {
+  color: #dddddd91;
+  margin-bottom: 0;
+  font-size: 20px;
+
+}
+
+.name {
+  color: #00aeff;
+  font-size: 50px;
+}
+
+.description {
+  color: #dddddd91;
+  margin-bottom: 0;
+  font-size: 20px;
+
+}
+
+
+
+/*SECTION SKILLS*/
+
+.skills {
+    border: 2px solid #080000;
+    height: 100vh;
+    width: 100vw;
+    background-color: #080000;
+}
+
+.titulos{
+  color: #00aeff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+span{
+  color: #dddddd91;
+}
+/*HTML*/
+#html{
+  width: 40px;
+  height: 40px;
+  display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  #bg-success{
+    background-color: orange;
+  }
+  
+  /*CSS*/
+  #css{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    }
+  #bg-info{
+    background-color: rgb(1, 129, 235);
+  }
+  
+  /*JS*/
+  #js{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    }
+  #bg-warning{
+    background-color: rgb(241, 214, 60);
+  }
+  
+  /*Angular*/
+  #angular{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    margin-bottom: -6px;
+    margin-left: -25px;
+    margin-top: 7px;
+    }
+  #bg-danger{
+    background-color: rgb(212, 10, 10);
+  }
+  
+  /*Bootstrap*/
+  #bootstrap{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    }
+  #bg-danger-2{
+    background-color: rgb(200, 0, 250);
+  }
+
+  /*Photoshop*/
+  #photoshop{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    }
+  #bg-danger-3{
+    background-color: rgb(0, 67, 250);
+  }
+
+/*Section Proyectos*/
+
+.proyects {
+    border: 2px solid #080000;
+    height: 100vh;
+    width: 100vw;
+}
